@@ -1,0 +1,1 @@
+print("Buraya daha sonra konuyu anlamanıza yardımcı olacak örnekler verilecektir.")
