@@ -26,9 +26,9 @@ print(f"split metodu örneği;\n{mesaj.split()}")
 print(f"split metodu parametreli örnek; {mesaj.split('.')}")
 
 
-mesajs=mesaj.split()
-mesaj1= ' '.join(mesajs)
-mesaj2= '*'.join(mesajs)
+mesajs = mesaj.split()
+mesaj1 = ' '.join(mesajs)
+mesaj2 = '*'.join(mesajs)
 print(f"join metodu; {mesaj1}")
 print("join metodu biraz kafa karıştırdı sanırım."
       "\nBu örnekte split metodu ile her iki boşluk arasındaki ifadeleri karakter dizesi haline getirdik."
@@ -43,10 +43,10 @@ print(f"Haluk kelimesini arattığımızdaki sonuç; {mesaj.find('Haluk')}")
 print("-1 değeri arattığımız değerin bulunmadığını gösterir.")
 
 
-
-print("Replace metodu; Bu metod ile karakter dizisinde arama yapıp bulunan değerleri başka değerlerle değiştirebiliriz.")
+print("Replace metodu; Bu metod ile karakter dizisinde arama yapıp, "
+      "bulunan değerleri başka değerlerle değiştirebiliriz.")
 print(f"Replace örneği;{mesaj.replace('Ramazan','Tayfun').replace('TOLGAY','ÖZTAN')} ")
-print("Bu örnekleri farklı şekilde çoğaltabiliriz.", mesaj.replace(' ','*'))
+print("Bu örnekleri farklı şekilde çoğaltabiliriz.", mesaj.replace(' ', '*'))
 
 
 print(f"center metodu; Bu metod bellirli bir alan oluşturup yazıyı ortalar.\n{mesaj.center(100)}")
@@ -55,4 +55,6 @@ print(f"Daha iyi anlamanız için aağıdaki örneği inceleyiniz;\n{mesaj.cente
 
 
 print("Bu ders de burada biter!")
-print(f"Daha fazla metot için; https://www.w3schools.com/python/python_ref_string.asp adresini ziyaret edin.")
+
+print("Daha fazla metot için;")
+print("https://www.w3schools.com/python/python_ref_string.asp adresini ziyaret edin.")
