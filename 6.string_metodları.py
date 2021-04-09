@@ -36,3 +36,4 @@ print(f"center metodu; Bu metod bellirli bir alan oluşturup yazıyı ortalar.\n
 print("\nDikkat ettiyseniz çıktının sağında ve solunda eşit miktarda boşluk oluşturup mesajımızı ortaladı.")
 print(f"Daha iyi anlamanız için aağıdaki örneği inceleyiniz;\n{mesaj.center(100,'*')}")
 print("Bu ders de burada biter!")
+print(f"Daha fazla metot için; https://www.w3schools.com/python/python_ref_string.asp adresini ziyaret edin.")
