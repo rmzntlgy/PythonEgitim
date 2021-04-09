@@ -1,0 +1,1 @@
+print("Buradaki Soruları daha sonra oluşturup örnekler yapılacaktır.")
