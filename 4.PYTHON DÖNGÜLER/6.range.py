@@ -9,27 +9,23 @@ print("Alttaki örnekte sıfırdan başlayıp ikişer olarak 98 e kadar yazdırd
 for sayi_liste in range(0, 100, 2):
     print(sayi_liste)
 
-
 print(f"Bu da liste şekilde yazdırma: {list(range(10, 20))}")
 
 print("'enumerate metodu kullanımı aşağıdaki gibidir.")
 selamlama = "Merhaba!"
 
 for yazi in enumerate(selamlama):
-
     print(yazi)
 
 selamla = "Merhaba!"
-for indeks,yazi in enumerate(selamla):
-
+for indeks, yazi in enumerate(selamla):
     print(f'indeks: {indeks} yazi: {yazi}')
 
-list1 = [1,2,3,4,5]
-list2 = ['a','b','c','d','e']
+list1 = [1, 2, 3, 4, 5]
+list2 = ['a', 'b', 'c', 'd', 'e']
 
 print(f"Zip metodu ile bir liste birleştirme "
       f"yapalım bu da son örnek: {list(zip(list1, list2))}")
-
 
 print("Başka bir uygulama da bu şekilde:")
 for item in list(zip(list1, list2)):
