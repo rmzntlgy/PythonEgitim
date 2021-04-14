@@ -65,7 +65,7 @@ Yukarıdaki örnekte hello fonksiyonu içinde biz name değişkenine
 "Osman" yazacaktır. Bunun nedeni local alan altında bir 
 local alan daha oluşmasıdır. Bunu bir bina ve daireleri
 onunda içindeki odalar gibi düşünebilirsiniz. Bina hepinizin
-ama daire ailenizin, odanızda sizin. :)
+ama daire ailenizin, odanız da sizin. :)
 
 """
 
